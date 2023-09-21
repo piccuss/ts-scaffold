@@ -2,18 +2,16 @@
   "name": "ts-scaffold",
   "version": "1.0.0",
   "description": "this is a typescript scaffold project build with gulp.",
-  "main": "./build/output.js",
+  "main": "./build/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./build/output.js",
-    "build": "gulp"
+    "start": "tsc && node ./build/main.js",
+    "build": "tsc"
   },
   "author": "piccus peng",
   "license": "GPL-3.0-or-later",
   "devDependencies": {
     "cross-env": "^7.0.3",
-    "gulp": "^4.0.0",
-    "gulp-typescript": "^6.0.0-alpha.1",
     "typescript": "^5.2.2"
   }
 }
