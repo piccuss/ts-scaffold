@@ -7,6 +7,11 @@
     "target": "es5",
     "sourceMap": true,
     "outDir": "build",
-    "noEmitOnError": true
+    "noEmitOnError": true,
+    "strictNullChecks": true,
+    "strictBindCallApply": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "useUnknownInCatchVariables": true
   }
 }
